@@ -18,7 +18,7 @@ document.getElementById('webhook-form').addEventListener('submit', async functio
         content: message,
       }),
     });
-    await new Promise(resolve => setTimeout(resolve, 1000));
+    await new Promise(resolve => setTimeout(resolve, 10));
   }
 
   statusDiv.innerHTML = 'Messages sent successfully!';
