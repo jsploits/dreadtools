@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Discord Webhook Sender</title>
+  <script src="tools/script.js" defer></script>
+</head>
+<body>
+  <a href="index.html">Home</a>
+  <h1>Webhook User</h1>
+  <form id="webhook-form">
+    <input type="url" id="webhook-url" placeholder="Webhook URL" required>
+    <input type="text" id="message" placeholder="Message" required>
+    <input type="number" id="repeat-count" placeholder="Number of Times" required>
+    <button type="submit">Send Message</button>
+  </form>
+  <div id="status"></div>
+</body>
+</html>
